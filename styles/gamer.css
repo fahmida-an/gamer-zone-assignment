@@ -427,6 +427,12 @@ a{
     text-align: center;
     padding-right: 0px;
 }
+.game-title{
+    font-size: 2rem;
+}
+.game-paragraph{
+    font-size: 0.8rem;
+}
 
 /* online game section */
 .grid-layout{
@@ -650,7 +656,7 @@ font-size: 1.5rem;
     }
     
 .play-description-title{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 .feature-img-container{
