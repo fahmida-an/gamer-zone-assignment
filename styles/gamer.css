@@ -170,7 +170,7 @@ main{
     width: 370px;
 }
 
-.gamer-purpose{
+.gamer-purpose, .play-purpose-description{
     color: #534C64;
     font-size: 1.1rem;
     font-weight: 500;
@@ -187,7 +187,7 @@ main{
     justify-content: space-between;
     padding: 50px;
 }
-.online-game-title{
+.online-game-title, .play-description-title{
     color: #0B0223;
     font-size:2.8rem;
     font-weight: 700;
@@ -218,6 +218,50 @@ background-clip: text;
     font-size: 1rem;
     font-weight: 500;
 }
+
+.play-section-container{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 0px;
+    
+    
+}
+.play-section-description{
+    /* border: 2px solid #F948B2; */
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    /* width: ; */
+}
+.feature-img-container{
+    /* border: 3px solid red; */
+    width: 100%;
+}
+.feature-img{
+    width: 80%;
+   
+}
+
+.img-badge{
+    border-radius: 8px;
+    
+    /* border: 10px solid #FFF; */
+    /* background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat; */
+    padding-left: 15rem;
+    position: relative;
+    bottom:12rem ;
+
+}
+.play-section-description{
+    text-align: left;
+}
+
+
 /* responsive for mobile device */
 
 @media screen and (max-width:576px) {
@@ -303,7 +347,62 @@ font-size: 1.5rem;
 .online-game-description{
     font-size: 0.7rem;
 }
+
+/* play download section */
+.play-section-container{
+    flex-direction: column-reverse;
 }
+ /* .feature-img-container{ */
+    /* border: 3px solid red; */
+    /* width: 100%; */
+/* }  */
+.feature-img-container{
+    width: 100%;
+   
+}
+.feature-img{
+    width: 250px;
+    height: 300px;
+}
+.img-badge{
+    border-radius: 8px;
+    
+    /* border: 10px solid #FFF; */
+    /* background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat; */
+    padding-left: 9rem;
+    position: relative;
+    bottom:5rem ;
+}
+
+.badge{
+    width: 150px;
+    height: 170px;
+}
+.play-section-container{
+   
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+        padding: 20px;
+        
+        
+    }
+    
+.play-description-title{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.play-purpose-description{
+    font-size: 0.9rem;
+    text-align: center;
+}
+.feature-img-container{
+    text-align: center;
+}
+}
+
+
 /* .hide{
     visibility: hidden;
 } */
