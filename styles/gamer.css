@@ -208,10 +208,24 @@ background-clip: text;
 .grid-container-img{
     width: 250px;
     height: 300px;
+
 }
 .grid-container-img:hover{
-   background: #000;
+    filter: brightness(50%);
+ }
+
+#cirle-play{ 
+    border-radius: 8px;
+    position: relative;
+    bottom:12rem ;
+    font-size: 4rem;
 }
+.watch-now a{
+    position: relative;
+    bottom: 11.5rem;
+    color: #300303;
+}
+
 .grid-description{
     text-align: left;
     color: #534C64;
