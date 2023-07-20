@@ -227,6 +227,8 @@ background-clip: text;
 }
 
 .grid-description{
+    position: relative;
+    bottom: 7rem;
     text-align: left;
     color: #534C64;
     font-size: 1rem;
